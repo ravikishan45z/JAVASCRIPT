@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Exercise</title>
+</head>
+
+<body>
+    <script>
+
+        // 2 basketball --> 20.95/p + 4.99
+        // 2 tshirt --> 7.99/p + 4.99
+        //tax --> 10%
+        // calculate th final price.
+        let items = ((2095 * 2) + (2 * 799)) / 100;
+        let handling = ((499 + 499) / 100);
+        let total_tax_b = items + handling;
+        let estimate = total_tax_b / 10;
+        console.log(`Iems(4) : ` + `$${items}`);
+        console.log(`Shiping and handling :` + `$${handling}`);
+        console.log(`Total tax before : ` + `$${items + handling}`);
+        console.log(`Estimated tax (10%) : ` + `$${total_tax_b / 10}`);
+        console.log(`ORDER TOTAL : ` + `$${total_tax_b + estimate}`);
+        // alert('Order total : ' + `$${total_tax_b + estimate}`);
+
+        console.log('\n');
+        let items2 = ((2095 * 1) + (1 * 799)) / 100;
+        let handling2 = ((499 + 499) / 100);
+        let total_tax_b2 = items2 + handling2;
+        let estimate2 = total_tax_b2 / 10;
+        console.log(`Iems(2) : ` + `$${items2}`);
+        console.log(`Shiping and handling :` + `$${handling2}`);
+        console.log(`Total tax before : ` + `$${items2 + handling2}`);
+        console.log(`Estimated tax (10%) : ` + `$${(total_tax_b2 / 10).toFixed(2)}`);
+        console.log(`ORDER TOTAL2 : ` + `$${(total_tax_b2 + estimate2).toFixed(2)}`);
+
+        // alert('Order total : ' + `$${total_tax_b2 + estimate2}`);
+
+    </script>
+</body>
+
+</html>
