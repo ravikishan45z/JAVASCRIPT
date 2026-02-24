@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <style>
+        button {
+            padding: 10px;
+            margin: 10px;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            border: none;
+            font-size: 1rem;
+            border-radius: 2px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        let cartq = 0;
+    </script>
+
+    <button onclick=" 
+    cartq = 0;
+    console.log(`Cart quantaty : ${cartq}`);
+    ">reset
+    </button>
+
+    <button onclick="
+    cartq = cartq + 4;
+    console.log(`Cart quantaty : ${cartq}`);
+    ">&plus;4</button>
+
+
+    <button onclick="
+    cartq = cartq + 5;
+   console.log(`Cart quantaty : ${cartq}`);
+    
+    ">&plus;5</button>
+
+    <button onclick="
+    if(cartq<=0){
+        console.log(`Cart quantaty : 0`);
+    }
+    else{
+    cartq = cartq-1;
+    console.log(`Cart quantaty : ${cartq}`);
+    }
+    ">
+        Remove 1
+    </button>
+
+    <script>
+        let name = 'Ravikishan Gaur';
+        console.log(typeof name);
+
+        console.log(`My name is ` + `${name}.`);
+
+        let cost = 200;
+        console.log(`Total cost : ` + `$${cost}`)
+    </script>
+</body>
+
+</html>
