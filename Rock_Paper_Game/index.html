@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <button onclick="
+    if(randomNumber < 0.3){
+        // console.log('rock');
+        computerMove = 'Rock'
+    }
+    else if(randomNumber > 0.3 && randomNumber < 0.6){
+        // console.log('Paper');
+        computerMove = 'Paper';
+    }
+    else{
+        // console.log('Scissors');
+        computerMove = 'Scissors';
+    }
+
+    if('Rock' === computerMove){
+        // console.log('Tie');
+        result = 'Tie';
+    }
+    else if('Rock' !== computerMove && computerMove === 'Paper'){
+        // console.log('You Win');
+        result = 'You Win';
+    }
+    else{
+        // console.log('You Loss');
+        result = 'You Loss';
+    }
+
+    alert(`Your move : Rock and computer's move : ${computerMove}\n Result : ${result}`);
+    ">
+        Rock
+    </button>
+
+    <button onclick="
+    if(randomNumber < 0.3){
+        // console.log('rock');
+        computerMove = 'Rock'
+    }
+    else if(randomNumber > 0.3 && randomNumber < 0.6){
+        // console.log('Paper');
+        computerMove = 'Paper';
+    }
+    else{
+        // console.log('Scissors');
+        computerMove = 'Scissors';
+    }
+
+    if('Paper' === computerMove){
+        // console.log('Tie');
+        result = 'Tie';
+    }
+    else if('Paper' !== computerMove && computerMove === 'Rock'){
+        // console.log('You Win');
+        result = 'You Win';
+    }
+    else{
+        // console.log('You Loss');
+        result = 'You Loss';
+    }
+
+    alert(`Your move : Paper and computer's move : ${computerMove}\n Result : ${result}`);
+    ">
+        Paper
+    </button>
+
+    <button onclick="
+    if(randomNumber < 0.3){
+        // console.log('rock');
+        computerMove = 'Rock'
+    }
+    else if(randomNumber > 0.3 && randomNumber < 0.6){
+        // console.log('Paper');
+        computerMove = 'Paper';
+    }
+    else{
+        // console.log('Scissors');
+        computerMove = 'Scissors';
+    }
+
+    if('Scissors' === computerMove){
+        // console.log('Tie');
+        result = 'Tie';
+    }
+    else if('Scissors' !== computerMove && computerMove === 'Paper'){
+        // console.log('You Win');
+        result = 'You Win';
+    }
+    else{
+        // console.log('You Loss');
+        result = 'You Loss';
+    }
+
+    alert(`Your move : Scissors and computer's move : ${computerMove}\n Result : ${result}`);
+    ">
+        Scissors
+    </button>
+
+    <script>
+        const randomNumber = Math.random();
+        //generates a number between 0 - 0.9 . 
+
+        let result = '';
+        let computerMove = '';
+    </script>
+
+</body>
+
+</html>

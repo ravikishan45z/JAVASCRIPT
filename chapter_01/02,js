@@ -1,0 +1,17 @@
+//data type
+/*
+number ==> 1234
+bigint ==> 2^53
+Boolean ==> true/false
+null ==> standalone value --> khali hai undefined nahi == "/0"
+undefined ==> no values
+symbol ==> unique
+
+non-premitive;
+
+objects
+
+*/
+
+console.log(typeof(undefined)) // ==> used to see/print type of value
+
