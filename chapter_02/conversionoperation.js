@@ -11,9 +11,24 @@ let score = true;
 // true ==> 1
 // faslse ==> 0
 
-console.log(1 + 2);
-console.log(typeof (1 + 2));      
-console.log("1" + 2);
-console.log(1 + "2");
-console.log(1 + 2 + "1");
-console.log("1" + 2 + 3);
+// console.log(1 + 2);
+// console.log(typeof (1 + 2));
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log(1 + 2 + "1");
+// console.log("1" + 2 + 3);
+// console.log(+true);
+
+let num1, num2, num3;
+
+num1 = numn2 = num3 = 12 + 13
+console.log(num1);
+
+//! GAME COUNTER
+//? INCREMENT
+
+let gamecounter  = 100
+++gamecounter
+console.log(gamecounter);
+console.log(gamecounter++);
+console.log(gamecounter);
